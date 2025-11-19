@@ -1,6 +1,11 @@
 password=12345 #password
+count=0
+while count < 5:
 
-while(input("password")): #input password
-    if int(input())!=password: #check password
-        print("the password is incorrect") #incorrect password
-    print("the password is correct") #print correct password
+pass_input= int(input("Enter password: ")) #input password
+    if pass_input==password: #check password
+        print("the password is correct") #incorrect password
+        break
+    else
+        print("the password is incorrect") #print correct password
+        count==1
